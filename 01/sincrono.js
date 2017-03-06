@@ -1,0 +1,6 @@
+var fs=require("fs")
+console.log('\nabrir archivo...')
+var content = fs.readFileSync('archivo.txt','utf8')
+console.log(content)
+console.log('\nhaciendo otra cosa\n')
+console.log(process.uptime())

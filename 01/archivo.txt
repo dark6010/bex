@@ -1,0 +1,6 @@
+hola esta
+es una
+simple 
+demostracion 
+que se lee el 
+archivo

@@ -2,7 +2,7 @@
 <p>
 <ol>
     <li>some to talk</li>
-    <li></li>
+    <li>Asincrono, sincrono, bloqueante no bloqueante</li>
     <li></li>
 </ol>
 </p>
