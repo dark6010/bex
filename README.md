@@ -1,8 +1,9 @@
 <h1>some examples by Dark Ghost</h1>
 <p>
 <ol>
-    <li>some to talk</li>
     <li>Asincrono, sincrono, bloqueante no bloqueante</li>
-    <li></li>
+    <li>Consola</li>
+    <li>http</li>
+    <li>10 buffer y stream pendiente</li>
 </ol>
 </p>

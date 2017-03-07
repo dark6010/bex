@@ -13,7 +13,7 @@ function singleThread(){
 }
 singleThread()
 
-for (key as pos in process.argv){
-    console.log(process.argv[key]+pos)
+for (key in process.argv){
+    console.log(process.argv[key])
 }
 //next 9
