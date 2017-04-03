@@ -16,3 +16,10 @@ for (var i= 0;i<buff2.length;i++){
     buff2[i] = i+97
 }
 console.log(buff2.toString('ascii'))
+
+//buffers son tiras de bytes
+//tipos lectura/escritura/duplex
+//instanci de eventEmitter
+//aceso asincrono
+//detras de recursos como
+//stdin/stdout/request de http/sockets/manipulacion de ficheros e imagenes
