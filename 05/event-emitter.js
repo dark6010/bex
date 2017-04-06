@@ -14,3 +14,4 @@ pub.emit('myevent', 'soy un emisor de eventos')
 pub.emit('myevent', 'volviendo a emitir')
 pub.removeAllListeners('myevent')
 pub.emit('myevent', 'volviendo a emitir por tercera vez')
+//emit es cuasi end a http
