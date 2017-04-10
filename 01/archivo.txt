@@ -4,3 +4,13 @@ simple
 demostracion 
 que se lee el 
 archivo
+
+globals
+process
+http
+buffer
+stream
+file system
+events
+util
+timers
