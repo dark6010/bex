@@ -15,7 +15,6 @@
                 <li> url y query string</li>
                 <li> 11 http client y snifer</li>
                 <li> formularios get y post</li>
-
             </ol>
        </li>
        <li> npm
@@ -27,5 +26,4 @@
            </ol>
        </li>
    </ol>
-    
 </p>
