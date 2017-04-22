@@ -1,0 +1,3 @@
+npm install [nombre de paquete]
+npm install [nombre de paquete] -g
+npm install [nombre de paquete] --save
