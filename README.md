@@ -20,8 +20,8 @@
        <li> npm
            <ol>
                <li>tipos de instalacion npm</li>
-               <li>debugger</li>
-               <li></li>
+               <li>debugger, modulos globales, monitores, manejadores de proceso</li>
+               <li>dependencias de proyecto + upload NOW 24</li>
                <li></li>
            </ol>
        </li>

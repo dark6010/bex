@@ -1,3 +1,6 @@
 npm install [nombre de paquete]
 npm install [nombre de paquete] -g
 npm install [nombre de paquete] --save
+nodemon o supervisor
+//npm i -g node-inspector
+pm2 forever
