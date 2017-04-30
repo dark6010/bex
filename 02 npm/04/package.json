@@ -1,0 +1,14 @@
+{
+  "name": "promises",
+  "version": "1.0.0",
+  "description": "promesas en node js",
+  "main": "callback.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gpq",
+  "license": "MIT",
+  "dependencies": {
+    "q": "^1.5.0"
+  }
+}

@@ -1,0 +1,23 @@
+--sistemas de automatizacion de tareas
+grunt json
+gulp string gulp
+--
+preprocesador de codigo css less stylus trabajan con node sass con ruby
+motor de plantillas html jade
+--bower npm para frontend
+browserifi require for frontend
+ecmascript 6 babel permite alfrontend
+jshint permite hacer pruebas unitarias
+npm install package --save-dev
+
+
+
+promesa es una opcion de desarrollo en lengiuajes asincronos
+callbackhell
+las promesas no manejan bien los errores por que se agrupan en uno
+
+ventajas de promesas mas ordenadas mas legibles
+las promesas resuelven en caso de tener exito o rechazan
+callback
+promises-q
+promises-es6

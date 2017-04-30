@@ -21,7 +21,8 @@
            <ol>
                <li>tipos de instalacion npm</li>
                <li>debugger, modulos globales, monitores, manejadores de proceso</li>
-               <li>dependencias de proyecto + upload NOW 24</li>
+               <li>dependencias de proyecto + upload</li>
+               <li>dependencias de desarrollo + (promesas vs callbacks) next26</li>
                <li></li>
            </ol>
        </li>
