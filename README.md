@@ -24,6 +24,8 @@
                <li>dependencias de proyecto + upload</li>
                <li>dependencias de desarrollo + (promesas vs callbacks)</li>
                <li>framework express </li>
+               <li>middleware </li>
+               <li>express generator next 33</li>
                <li></li>
            </ol>
        </li>
