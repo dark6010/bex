@@ -25,7 +25,10 @@
                <li>dependencias de desarrollo + (promesas vs callbacks)</li>
                <li>framework express </li>
                <li>middleware </li>
-               <li>express generator next 33</li>
+               <li>express generator next </li>
+               <li>configuraciones express &apm;&amp; pug begin</li>
+               <li></li>
+               
                <li></li>
            </ol>
        </li>

@@ -1,0 +1,57 @@
+extends layout.pug
+block content
+    // comentario visible en html
+    //- comentario no visible en html
+    article#jade.container
+        h1
+            a(href="#{link}", target="_blank")= title
+        p= description
+    article.container
+        h2 estrutura basica de jade
+        p este archivo html es generafo con el motor de templates jade. 
+            | Para concatenar varias lineas de usa '|'
+    include logo
+    article.container
+        //-interpolacion
+        p.
+            la interpolacion pudes verla en 
+            #[a(href="http://jade-lang.com/api", target="_blank") api], la ref del
+            #[a(href="http://jade-lang.com/reference", target="_blank") lenguaje]
+        br
+        button#presioname.boton presioname
+        script.
+            document.querySelector('#presioname').onclick = function(){
+                alert('javascript ejecutandose desde jade')
+            
+            }
+        -var nombre= 'jade'
+        p hola #{nombre}
+        -var fecha= new Date()
+        -var hora= fecha.getHours()
+        if(hora<12)
+            p la hora #{hora} es am
+        else
+            p la hora #{hora} es pm
+        -var estaciones= ['primaver','verano','otono','invierno']
+        h2 estacions del año
+        ol
+            each estacion in estaciones
+                li #{estacion}
+        //- los mixins son funciones de jade
+    mixin mesesEstaciones(estacion, meses)
+        div.item
+            h3 #{estacion}
+            ul
+                each mes in meses
+                    li #{mes}
+
+    article.container
+        h2 estaciones del año
+        +mesesEstaciones(estaciones[0], ['agosto','septiembre','octubre'])
+        +mesesEstaciones(estaciones[1], ['noviembre','diciembre','enero'])
+        +mesesEstaciones(estaciones[2], ['febrero','marzo','abril'])
+        +mesesEstaciones(estaciones[3], ['mayo','junio','julio'])
+        
+        
+        
+        
